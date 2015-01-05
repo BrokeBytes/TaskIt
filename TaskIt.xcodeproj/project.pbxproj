@@ -18,6 +18,7 @@
 		8482917C1A58B48A00938CF7 /* TaskItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482917B1A58B48A00938CF7 /* TaskItTests.swift */; };
 		84CE691F1A598F45003DD14C /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE691E1A598F45003DD14C /* Date.swift */; };
 		84CE69211A5992DF003DD14C /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE69201A5992DF003DD14C /* AddTaskViewController.swift */; };
+		84CE69231A5B21BB003DD14C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CE69221A5B21BB003DD14C /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		8482917B1A58B48A00938CF7 /* TaskItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItTests.swift; sourceTree = "<group>"; };
 		84CE691E1A598F45003DD14C /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		84CE69201A5992DF003DD14C /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		84CE69221A5B21BB003DD14C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84CE69231A5B21BB003DD14C /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +108,7 @@
 		848291631A58B48A00938CF7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84CE69221A5B21BB003DD14C /* CoreData.framework */,
 				848291641A58B48A00938CF7 /* Info.plist */,
 			);
 			name = "Supporting Files";
